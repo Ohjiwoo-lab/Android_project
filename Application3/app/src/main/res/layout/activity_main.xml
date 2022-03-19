@@ -27,7 +27,7 @@
         android:layout_width="389dp"
         android:layout_height="51dp"
         android:layout_marginTop="30dp"
-        android:text="글자 나타내기"
+        android:text="@string/strBtn1"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -38,7 +38,7 @@
         android:layout_width="389dp"
         android:layout_height="52dp"
         android:layout_marginBottom="470dp"
-        android:text="홈페이지 열기"
+        android:text="@string/strBtn2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -60,13 +60,13 @@
             android:id="@+id/radioButton5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="11.0(R)" />
+            android:text="@string/strRadio1" />
 
         <RadioButton
             android:id="@+id/radioButton7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="12.0(S)" />
+            android:text="@string/strRadio1" />
 
     </RadioGroup>
 
