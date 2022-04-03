@@ -37,9 +37,10 @@
         android:text="▲"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintHorizontal_bias="0.272"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline"
+        app:layout_constraintVertical_bias="0.25"
         tools:ignore="OnClick" />
 
     <Button
@@ -50,8 +51,10 @@
         android:text="▼"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toEndOf="@+id/button3"
         app:layout_constraintTop_toTopOf="@+id/guideline"
+        app:layout_constraintVertical_bias="0.25"
         tools:ignore="OnClick" />
 
     <androidx.constraintlayout.widget.Guideline
@@ -59,14 +62,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="300dp" />
+        app:layout_constraintGuide_begin="266dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_end="300dp" />
+        app:layout_constraintGuide_end="288dp" />
 
     <HorizontalScrollView
         android:id="@+id/horScrollView2"
@@ -90,4 +93,20 @@
             </ImageView>
         </ScrollView>
     </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="113dp"
+        android:layout_marginBottom="37dp"
+        android:text="2020039019 오지우"
+        app:layout_constraintBottom_toTopOf="@+id/horScrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -69,4 +69,10 @@
         android:text="처음으로"
         android:visibility="invisible"/>
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2020039019 오지우" />
+
 </LinearLayout>
