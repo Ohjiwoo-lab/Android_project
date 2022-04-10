@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        setTitle("SMS 입력 화면 만들고 글자의 수 표시하기");
 
         editText = findViewById(R.id.editTextTextPersonName2);
         textView = findViewById(R.id.textView3);
